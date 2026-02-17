@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" style="background-color: #f1f5f9;">
+    <defs>
+        <style>
+            @keyframes float {
+                0% { transform: translateY(0px); }
+                50% { transform: translateY(-10px); }
+                100% { transform: translateY(0px); }
+            }
+            @keyframes blink {
+                0%, 90%, 100% { transform: scaleY(1); }
+                95% { transform: scaleY(0.1); }
+            }
+            @keyframes bubble {
+                0% { opacity: 0; transform: scale(0); }
+                50% { opacity: 1; transform: scale(1.1); }
+                100% { opacity: 1; transform: scale(1); }
+            }
+            .head { animation: float 3s ease-in-out infinite; }
+            .eye { transform-origin: center; animation: blink 4s infinite; }
+            .bubble1 { animation: bubble 0.5s ease-out 0.5s forwards; opacity: 0; }
+            .bubble2 { animation: bubble 0.5s ease-out 1s forwards; opacity: 0; }
+            .bubble3 { animation: bubble 0.5s ease-out 1.5s forwards; opacity: 0; }
+        </style>
+    </defs>
+    
+    <!-- Body -->
+    <path d="M130,280 Q200,300 270,280 L270,300 L130,300 Z" fill="#334155"/>
+    <path d="M150,280 C150,230 250,230 250,280" fill="#475569"/>
+    
+    <!-- Float Group for Head -->
+    <g class="head">
+        <!-- Neck -->
+        <rect x="185" y="190" width="30" height="40" fill="#f1c27d"/>
+        
+        <!-- Head Shape -->
+        <ellipse cx="200" cy="150" rx="60" ry="70" fill="#f1c27d"/>
+        
+        <!-- Hair -->
+        <path d="M140,140 C140,80 260,80 260,140 C260,120 240,160 230,140 C220,110 180,110 170,140 C160,160 140,160 140,140" fill="#1e293b"/>
+        
+        <!-- Eyes -->
+        <g class="eye">
+            <circle cx="180" cy="150" r="5" fill="#1e293b"/>
+            <circle cx="220" cy="150" r="5" fill="#1e293b"/>
+        </g>
+        
+        <!-- Eyebrow (One raised) -->
+        <path d="M170,135 Q180,135 190,135" stroke="#1e293b" stroke-width="3" fill="none"/>
+        <path d="M210,130 Q220,120 230,130" stroke="#1e293b" stroke-width="3" fill="none"/>
+        
+        <!-- Mouth (Thinking) -->
+        <path d="M190,180 Q200,185 210,180" stroke="#8b5e3c" stroke-width="2" fill="none"/>
+        
+        <!-- Hand on Chin -->
+        <path d="M210,210 Q240,160 210,185" stroke="#f1c27d" stroke-width="20" stroke-linecap="round" fill="none"/>
+        <circle cx="210" cy="210" r="15" fill="#f1c27d"/>
+    </g>
+
+    <!-- Thought Bubbles -->
+    <g transform="translate(260, 100)">
+        <circle class="bubble1" cx="0" cy="20" r="5" fill="#cbd5e1"/>
+        <circle class="bubble2" cx="20" cy="10" r="10" fill="#cbd5e1"/>
+        <path class="bubble3" d="M40,0 Q30,-20 50,-30 Q70,-40 90,-20 Q110,-10 90,10 Q70,30 50,10 Z" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+        <text class="bubble3" x="55" y="0" font-family="sans-serif" font-size="20" fill="#64748b" font-weight="bold">?</text>
+    </g>
+</svg>
