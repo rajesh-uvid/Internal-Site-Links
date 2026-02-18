@@ -1,4 +1,4 @@
 Title,Link,Description,Image,Category
 Google,https://google.com,The world's search engine,https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg,Search Engines
-File Converter,https://fileconverteruvid.streamlit.app,General Data File Converter for CSV Excel JSON Parquet,https://images.pexels.com/photos/4792285/pexels-photo-4792285.jpeg,Tools
-Jedox Report Parser, https://jedox-file-transformer.streamlit.app/, Analyse Jedox Designer Reports Backend code and Debug, https://images.pexels.com/photos/5647615/pexels-photo-5647615.jpeg,Analysis
+Data File Converter,https://datafileconverteruvid.streamlit.app/,General Data File Converter for CSV Excel JSON Parquet,https://images.pexels.com/photos/4792285/pexels-photo-4792285.jpeg,Tools
+Jedox Report Parser, https://jedox-report-parser.streamlit.app/, Analyse Jedox Designer Reports Backend code and Debug, https://images.pexels.com/photos/5647615/pexels-photo-5647615.jpeg,Analysis
