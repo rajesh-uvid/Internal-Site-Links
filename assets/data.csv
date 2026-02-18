@@ -1,4 +1,8 @@
 Title,Link,Description,Image,Category
-Google,https://google.com,The world's search engine,https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg,Search Engines
+Attribute Classifier,https://uvid-attributeclassifier.streamlit.app/,Remove Other language attribute columns,https://images.pexels.com/photos/7149337/pexels-photo-7149337.jpeg,Analysis
+Error Log Parser,https://uvid-errorlog.streamlit.app/,Used to classify the warnings and errors from jedox integrator log,https://images.pexels.com/photos/9504092/pexels-photo-9504092.jpeg,Tools
+Integration Load/Job listing,https://uvid-integratorlist.streamlit.app/,Used to list loads and jobs in the project file,https://images.pexels.com/photos/1226398/pexels-photo-1226398.jpeg,Analysis
+Integration Parser,https://uvid-integration.streamlit.app/,Used to verify the updates and changes,https://images.pexels.com/photos/947417/pexels-photo-947417.jpeg,Tools
+Rules Parser,https://uvid-rule.streamlit.app/,Used to visualize the rules and Check connections,https://images.pexels.com/photos/4219861/pexels-photo-4219861.jpeg,Analysis
 Data File Converter,https://datafileconverteruvid.streamlit.app/,General Data File Converter for CSV Excel JSON Parquet,https://images.pexels.com/photos/4792285/pexels-photo-4792285.jpeg,Tools
 Jedox Report Parser, https://jedox-report-parser.streamlit.app/, Analyse Jedox Designer Reports Backend code and Debug, https://images.pexels.com/photos/5647615/pexels-photo-5647615.jpeg,Analysis
