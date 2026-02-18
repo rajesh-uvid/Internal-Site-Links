@@ -222,7 +222,7 @@ function renderProjects(projects) {
                         ${project.category}
                     </span>
                     <a href="${project.link}" target="_blank" class="btn-link">
-                        View Project
+                        Open Site
                     </a>
                 </div>
             </div>
